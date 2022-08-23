@@ -10,7 +10,7 @@ Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414
 
 | Date      | Topic                                                         | Reading       | Links     | Assignments          |
 | --------- | ------------------------------------------------------------- | ------------- | --------- | -------------------- |
-| 8/23      | Syllabus & a tour of math. models & linear algebra            |               |           |                      |
+| 8/23      | Syllabus & a tour of math. models & linear algebra            |               | [Lec. 1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_1.pdf)          |                      |
 | 8/25      | How to Construct a Model                                      | OD-1, Twitter |           |
 | 8/30      | Solutions to Differential Equations — Numerical vs Analytical |               |           | A0 Due               |
 | 9/1       | Exponential & Logistic Growth                                 |               |           | A1 Due               |

@@ -1,2 +1,130 @@
-# CSCI2897
-Calculating Biological Quantities — Fall 2022
+# CSCI - 2897 
+ 
+CU Boulder's CSCU 2897 - Calculating Biological Quantities   
+Prof. [Daniel Larremore](http://larremorelab.github.io/)  
+Fall 2022  
+Tu/Th 2:00-3:15, JSCBB B115  
+Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414
+ 
+## Schedule
+
+| Date      | Topic                                                         | Reading       | Links     | Assignments          |
+| --------- | ------------------------------------------------------------- | ------------- | --------- | -------------------- |
+| 8/23      | Syllabus & a tour of math. models & linear algebra            |               |           |                      |
+| 8/25      | How to Construct a Model                                      | OD-1, Twitter |           |
+| 8/30      | Solutions to Differential Equations — Numerical vs Analytical |               |           | A0 Due               |
+| 9/1       | Exponential & Logistic Growth                                 |               |           | A1 Due               |
+| 9/6\*     | Exponential & Logistic Growth II                              |               | Recording |                      |
+| 9/8\*     | Separation of Variables and Logistic Solution                 |               | Recording | A2 Due               |
+| 9/13      | Separation of Variables, Equilibria, and phase portraits      |               |           |                      |
+| 9/15      | Haploid models of natural selection                           |               |           | A3 Due               |
+| 9/20      | Equilibria, Species Interactions: Lotka Volterra              |               |           |                      |
+| 9/22\*    | Consumer-Resource Models                                      |               | Recording | A4 Due               |
+| 9/27      | Math: Integrating Factors & Linear Equations                  |               |           |                      |
+| 9/29      | SIR models                                                    |               |           | A5 Due               |
+| 10/4      | SIR models II                                                 |               |           |                      |
+| 10/6      | SEIR and Vaccination I                                        |               |           | Project Proposal Due |
+| 10/11     | Vaccination II                                                |               |           |                      |
+| 10/13\*   | Multiple variables, and systems of equations                  |               | Recording | A6 Due               |
+| 10/18     | Multiple variables, and systems of equations                  |               |           |                      |
+| 10/20\*   | Vectors, matrices                                             |               | Recording | A7 Due               |
+| 10/25     | Inverse matrices and Eigenvalues                              |               |           |                      |
+| 10/27     | Eigenvalues & Eigenvectors                                    |               |           | A8 Due               |
+| 11/1      | Multivariable Linear Systems                                  |               |           |                      |
+| 11/3      | Complex Eigenvalues                                           |               |           | A9 Due               |
+| 11/8      | Demography                                                    |               |           |                      |
+| 11/10     | Demography II                                                 |               |           |                      |
+| 11/15     | TBD                                                           |               |           |                      |
+| 11/17     | TBD                                                           |               |           |                      |
+| 11/22     | FALL BREAK                                                    |               |           |                      |
+| 11/24     | FALL BREAK                                                    |               |           |                      |
+| 11/29     | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts  |               |           |                      |
+| 12/1      | Models w/ 2 ICs, part II                                      |               |           |                      |
+| 12/6      | Final presentations                                           |               |           |                      |
+| 12/8      | Final presentations                                           |               |           |                      |
+| final day | Project Report Due                                            |               |           |                      |
+
+## Syllabus
+Course: CSCI 2897  
+Lectures: Tuesday & Thursday, 2:00pm – 3:15pm  
+Location: JSCBB B115  
+Lecturer: Prof. Daniel Larremore  
+Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414  
+Email: daniel.larremore@colorado.edu  
+Webpage: [https://github.com/dblarremore/CSCI2897](https://github.com/dblarremore/CSCI2897) 
+
+### Description
+*Calculating Biological Quantities* is an interdisciplinary course that brings together mathematics, coding, modeling, and biology. It is part of CU Boulder's *Computational Biology* minor.  Our **learning goals** in this course include
+
+* mastering practical mathematical techniques for representing and analyzing biological quantities of different kinds
+* developing mathematical intuition about common biological calculations and concepts
+* learning to model biologically related feedback processes, and solve or analyze their corresponding differential or difference equations
+* adapting and combining methods to solve biological problems
+* gaining confidence in decoding mathematical models and language, including the ideas and vocabulary of differential equations and linear algebra
+
+### Prerequisites
+MATH 1300 or APPM 1350 (Calc I).  This course has its roots in biology, math, and computer science, and while knowledge of all three is great, the whole point of the class is to develop strengths in the interdisciplinary space *between* these three fields. If you are enrolled in the course and feel that one area or another is a problem, let's talk about it. 
+
+### Texts 
+* [Required] Otto & Day: *A Biologist's Guide to Mathematical Modeling in Ecology and Evolution*
+* [Required] Zill: *A First Course in Differential Equations*
+
+### Overview
+* Mostly lecture-style class, in which I write on blank-ish slides and we talk about problems. 
+* Readings may be assigned before class. 
+* Problem sets consist of a few types of exercises: "free throws" / "pushups" in which students get repeated practice on an easy or old topic;  more challenging problems with multiple parts where we engage with new concepts; and written responses to readings, models, or current events that are relevant. 
+* A Course Project will allow students to engage with the course material over a longer period than homeworks. There are three components that will be graded: a Project Proposal, a Project Report, and a Project Presentation. 
+* Computational Biology is cool.
+
+
+### Coursework & Grading
+* **Grade Breakdown:** 50% homework, 50% project. Letter grades will be assigned at the end of the course. We will use cutoffs of at most 90/80/70. 
+* **Schedule:** There will be approximately 9 homework assignments, due mostly during the first 2/3 of the semester. The number and schedule may vary due to partial reordering of the course material based on student feedback. On 10/6, a project proposal is due. During the last full week of class, there will be project presentations. The project report will be due on the day of our scheduled "final".
+* **Exams:** None.
+* **Problem Sets:** Problem sets will be a mixture of math (e.g. solve this problem), writing (e.g. explain how X works in a few sentences), and coding (e.g. implement code for this model and produce a plot). Format for solutions will depend on the type of problems, but could include scans (use an app!) for handwritten math, PDF for written explanations, Jupyter Notebooks for coding problems, or brief 1-on-1 discussions over Zoom.
+* Most assignments will be submitted via Canvas.
+* **Late / Dropped Assignments:** Life happens! Privacy is important! You don't need to ask for a homework to be dropped or to turn something in. Instead: (1) your lowest homework grade will be automatically dropped at the end of the semester. (2) You get three "late days" to use as you wish. You could, for example, turn in one homework 3 days late, or you could turn in three homeworks 1 day late each. Use wisely! Any late turn-ins are rounded up to the nearest whole day, e.g. turning in 5 minutes late or 23 hours late would both count as one day. 
+* **Collaboration Policy:** Don't Google, StackOverflow, buy the teacher's edition of the books, or buy Chegg. Instead, work together. *Collaboration is encouraged* on the problem sets. However, you may not copy (in any way) from your collaborators and you must respect University academic policies at all times. To be clear: you may discuss the problems verbally, but you must write up your solutions separately. If you do discuss the problems with someone (and you are encouraged to!), you must then list and describe the extent of your collaboration in your solutions (a footnote is fine). 
+* If you're unsure about anything above, please ask ahead of time.
+
+### Suggestions: 
+Suggestions for improvement are welcome at any time. Any concern about the course should be brought first to my attention. Further recourse is available through the office of the Department Chair or the Graduate Program Advisor, both accessible on the 7th floor of the Engineering Center Office Tower.
+
+## Campus-Level Syllabus Information
+
+### Classroom Behavior
+
+
+Both students and faculty are responsible for maintaining an appropriate learning environment in all instructional settings, whether in person, remote or online. Those who fail to adhere to such behavioral standards may be subject to discipline. Professional courtesy and sensitivity are especially important with respect to individuals and topics dealing with race, color, national origin, sex, pregnancy, age, disability, creed, religion, sexual orientation, gender identity, gender expression, veteran status, political affiliation or political philosophy.  For more information, see the [classroom behavior](http://www.colorado.edu/policies/student-classroom-and-course-related-behavior) policy, the [Student Code of Conduct](https://www.colorado.edu/sccr/student-conduct), and the [Office of Institutional Equity and Compliance](https://www.colorado.edu/oiec/).
+
+### Requirements for COVID-19
+
+As a matter of public health and safety, all members of the CU Boulder community and all visitors to campus must follow university, department and building requirements and all public health orders in place to reduce the risk of spreading infectious disease. CU Boulder currently requires COVID-19 vaccination and boosters for all faculty, staff and students. Students, faculty and staff must upload proof of vaccination and boosters or file for an exemption based on medical, ethical or moral grounds through the MyCUHealth portal.
+
+The CU Boulder campus is currently mask-optional. However, if public health conditions change and masks are again required in classrooms, students who fail to adhere to masking requirements will be asked to leave class, and students who do not leave class when asked or who refuse to comply with these requirements will be referred to Student Conduct and Conflict Resolution. For more information, see the policy on classroom behavior and the Student Code of Conduct. If you require accommodation because a disability prevents you from fulfilling these safety measures, please follow the steps in the "Accommodation for Disabilities" statement on this syllabus.
+
+If you feel ill and think you might have COVID-19, if you have tested positive for COVID-19, or if you are unvaccinated or partially vaccinated and have been in close contact with someone who has COVID-19, you should stay home and follow the further guidance of the Public Health Office (<contacttracing@colorado.edu>). If you are fully vaccinated and have been in close contact with someone who has COVID-19, you do not need to stay home; rather, you should self-monitor for symptoms and follow the further guidance of the Public Health Office (<contacttracing@colorado.edu>).
+
+### Accommodation for Disabilities
+
+If you qualify for accommodations because of a disability, please submit your accommodation letter from Disability Services to your faculty member in a timely manner so that your needs can be addressed.  Disability Services determines accommodations based on documented disabilities in the academic environment.  Information on requesting accommodations is located on the [Disability Services website](https://www.colorado.edu/disabilityservices/). Contact Disability Services at 303-492-8671 or <dsinfo@colorado.edu>  for further assistance.  If you have a temporary medical condition, see [Temporary Medical Conditions](http://www.colorado.edu/disabilityservices/students/temporary-medical-conditions) on the Disability Services website.
+
+### Preferred Student Names and Pronouns
+
+CU Boulder recognizes that students' legal information doesn't always align with how they identify. Students may update their preferred names and pronouns via the student portal; those preferred names and pronouns are listed on instructors' class rosters. In the absence of such updates, the name that appears on the class roster is the student's legal name.
+
+### Honor Code
+
+All students enrolled in a University of Colorado Boulder course are responsible for knowing and adhering to the [Honor Code](https://www.colorado.edu/sccr/honor-code). Violations of the Honor Code may include, but are not limited to: plagiarism, cheating, fabrication, lying, bribery, threat, unauthorized access to academic materials, clicker fraud, submitting the same or similar work in more than one course without permission from all course instructors involved, and aiding academic dishonesty. If you have read this far into the syllabus, well done! Send me a picture of your favorite image from the Webb space telescope (your opinion) for a small bump to your grade. All incidents of academic misconduct will be reported to Student Conduct & Conflict Resolution (<honor@colorado.edu>); 303-492-5550). Students found responsible for violating the [Honor Code](https://www.colorado.edu/sccr/honor-code) will be assigned resolution outcomes from the Student Conduct & Conflict Resolution as well as be subject to academic sanctions from the faculty member. Additional information regarding the Honor Code academic integrity policy can be found on the [Honor Code website](https://www.colorado.edu/sccr/honor-code).
+
+### Sexual Misconduct, Discrimination, Harassment and/or Related Retaliation
+
+CU Boulder is committed to fostering an inclusive and welcoming learning, working, and living environment. University policy prohibits sexual misconduct (harassment, exploitation, and assault), intimate partner violence (dating or domestic violence), stalking, protected-class discrimination and harassment, and related retaliation by or against members of our community on- and off-campus. These behaviors harm individuals and our community. The Office of Institutional Equity and Compliance (OIEC) addresses these policies, and individuals who believe they have been subjected to misconduct can contact OIEC at 303-492-2127 or email <cureport@colorado.edu>. Information about university policies, [reporting options](https://www.colorado.edu/oiec/reporting-resolutions/making-report), and support resources can be found on the [OIEC website](http://www.colorado.edu/institutionalequity/).
+
+Please know that faculty and graduate instructors have a responsibility to inform OIEC when they are made aware of any issues related to these policies regardless of when or where they occurred to ensure that individuals impacted receive information about their rights, support resources, and resolution options. To learn more about reporting and support options for a variety of concerns, visit [Don't Ignore It](https://www.colorado.edu/dontignoreit/).
+
+### Religious Holidays
+
+Campus policy regarding religious observances requires that faculty make every effort to deal reasonably and fairly with all students who, because of religious obligations, have conflicts with scheduled exams, assignments or required attendance.
+
+See the [campus policy regarding religious observances](http://www.colorado.edu/policies/observance-religious-holidays-and-absences-classes-andor-exams) for full details.

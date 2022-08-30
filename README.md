@@ -14,7 +14,7 @@ Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414
 | 8/25      | How to Construct a Model                                      | OD-1, [Twitter](https://twitter.com/seanjtaylor/status/1349583017719709699) |  [Lec. 2](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_2.pdf)         |
 | 8/30      | Solutions to Differential Equations — Numerical vs Analytical | review OD-2   |           | A0 Due               |
 | 9/1       | Exponential & Logistic Growth                                 | OD-3.1,3.2    |           |                      |
-| 9/6\*     | Exponential & Logistic Growth II                              |               | Recording | A1 Due               |
+| 9/6\*     | Exponential & Logistic Growth II                              |               | Recording | [A1](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/A1.pdf) Due               |
 | 9/8\*     | Separation of Variables and Logistic Solution                 |               | Recording |                      |
 | 9/13      | Separation of Variables, Equilibria, and phase portraits      |               |           | A2 Due               |
 | 9/15      | Haploid models of natural selection                           |               |           |                      |

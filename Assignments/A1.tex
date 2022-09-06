@@ -1,0 +1,102 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Fall 2022}
+%%%%%%%%%% Title
+\title{Assignment 1}
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Squats}
+
+{\bf Calculate these derivatives.}
+
+\begin{enumerate}
+	\item $\dx x^3 = $
+	\item $\dx x^{-3} = $
+	\item $\dx e^{\alpha x} = $
+	\item $\dx e^{\pi x^{-2}} = $
+	\item $\dx \ln{2x} = $
+\end{enumerate}
+
+\section*{Situps}
+
+{\bf Find solutions to each of these differential equations.}\footnote{Hint: ask yourself, ``What function, if I were to take its derivative, would satisfy this equation?''}
+
+\begin{enumerate}[resume]
+	\item $\displaystyle\frac{dy(t)}{dt} = 0$
+	\item $\displaystyle\frac{dy(t)}{dt} = t$
+	\item $\displaystyle\frac{dy(t)}{dt} = y(t)$
+\end{enumerate}
+
+\clearpage
+\section*{Modeling in the News}
+\begin{enumerate}[resume]
+\item Find {\bf two} stories in the recent news that spark your curiosity about modeling, one related to biology in some form, and another unrelated to biology. For each, please
+\begin{itemize}
+	\item Provide a link to the story, as well as the date and title of the story. 
+	\item Write a paragraph describing {\it as a narrative} a dynamical process occurring in the story. 
+	\item Pose a relevant question about that dynamical process or system.
+	\item Identify the important variables; and identify the important parameters.
+	\item Produce a flow diagram or a life cycle diagram of the dynamics using a graphics software\footnote{Keynote or Powerpoint are good bets} that would help you to translate the process or system from narrative steps (qualitative) into a quantitative model with variables and parameters included.
+\end{itemize}
+\end{enumerate}
+
+\vspace{0.3in}
+\section*{Minors and Majors}
+\begin{enumerate}[resume]
+\item Each year, the Computational Biology Minor has $N$ new enrollees who start as freshmen. These freshmen are split with p\% majoring in Computation ($C$) and 100(1-p)\% majoring in Biology ($B$). At the end of freshman year, sophomore year, and junior year, a fraction $f_{C\to B}$ of Computation students change to Biology, while a fraction $F_{B\to C}$ Biology students change to Computation. Also at the end of each year, a fraction $f_X$ of the students drop the CB Minor entirely. The remaining students keep their existing major and show up in the fall in the next grade; Seniors graduate and leave.
+
+Draw a {\bf flow diagram} that tracks the numbers of students in Computation across the four years ($C_f$, $C_s$, $C_j$, $C_r$) and the numbers of students in Biology across the four years ($B_f$, $B_s$, $B_j$, $B_r$). Include parameters in your diagram. State any fundamental requirements on the parameters that you can think of. 
+\end{enumerate}
+
+\vspace{0.5in}
+\section*{Extra Credit}
+\begin{enumerate}[resume]
+\item[E.C.] As noted in class, we can use {\it Forward Euler} to numerically solve the differential equation$$\frac{dn(t)}{dt}=\sqrt{n(t)},\quad n(0)=1$$
+by determining our current ``slope'', and then taking a small step ($\Delta t$) in that direction to update the value of $n$. In this way, we can step along the path of the solution, and solve a differential equation by transforming it into a recursion. 
+
+For this extra credit, write some code in Python and produce a single plot that shows three solutions: (a) $\Delta t = 2$, red, (b) $\Delta t = 1$, blue, and (c) $\Delta t = 0.01$, black.  Your plot should have a horizontal axis from $t=0$ to $t=10$. Please also attach your source code along with your plot --- a screenshot of your code is fine. 
+\end{enumerate}
+
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}

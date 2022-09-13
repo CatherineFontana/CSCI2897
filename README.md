@@ -16,23 +16,23 @@ Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414
 | 9/1       | Solutions to Differential Equations — Numerical vs Analytical | OD-3.1,3.2    | [Lec. 3](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_3.pdf), [Recording](https://cuboulder.zoom.us/rec/share/_VtJc3rB3c3PbFrrkk4KEK66AvUpsJWEZ1T5RCbxfTjwOSoUpzKqW5KCkxV3Vx1Q.O4njGA0iyAnnzTgc?startTime=1662399687000)           |                      |
 | 9/6\*     | Exponential & Logistic Growth                                 |               | [Lec. 4](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_4.pdf), [Recording](https://cuboulder.zoom.us/rec/share/_VtJc3rB3c3PbFrrkk4KEK66AvUpsJWEZ1T5RCbxfTjwOSoUpzKqW5KCkxV3Vx1Q.O4njGA0iyAnnzTgc?startTime=1662401705000) | [A1](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/A1.pdf) Due               |
 | 9/8\*     | Separation of Variables and Logistic Solution                 |               | [Lec. 5](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_5.pdf), [Recording Part I](https://cuboulder.zoom.us/rec/share/eatv3IT-Pa2FzcL-NZ7U0y6yamVdJQIPFYzS6cwQDS8dPsM1k8ghOkZ6eYhN0oCO.t8xO-AITAWTYitLt), [Recording Part II ](https://cuboulder.zoom.us/rec/share/zB9X0aVK2Est_Jw6BBNp9bREVOFsA91vsyDGrkxxH5tS1kpyrgT4D0MaWiZKSaGp.jYfHmcsrm6CV1xM_)|                      |
-| 9/13      | Separation of Variables, Equilibria, and phase portraits      |               |           | A2 Due               |
-| 9/15      | Haploid models of natural selection                           |               |           |                      |
-| 9/20      | Equilibria, Species Interactions: Lotka Volterra              |               |           | A3 Due               |
+| 9/13      | Haploid models of natural selection      |               |           |                |
+| 9/15      | Equilibria, Species Interactions: Lotka Volterra                           |               |           |                      |
+| 9/20      | Equilibria, Species Interactions: Lotka Volterra              |               |           | [A2](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/A2.pdf) Due               |
 | 9/22\*    | Consumer-Resource Models                                      |               | Recording |                      |
-| 9/27      | Math: Integrating Factors & Linear Equations                  |               |           | A4 Due               |
+| 9/27      | Math: Integrating Factors & Linear Equations                  |               |           | A3 Due               |
 | 9/29      | SIR models                                                    |               |           |                      |
-| 10/4      | SIR models II                                                 |               |           | A5 Due               |
+| 10/4      | SIR models II                                                 |               |           | A4 Due               |
 | 10/6      | SEIR and Vaccination I                                        |               |           | Project Proposal Due |
 | 10/11     | Vaccination II                                                |               |           |                      |
 | 10/13\*   | Multiple variables, and systems of equations                  |               | Recording |                      |
-| 10/18     | Multiple variables, and systems of equations                  |               |           | A6 Due               |
+| 10/18     | Multiple variables, and systems of equations                  |               |           | A5 Due               |
 | 10/20\*   | Vectors, matrices                                             |               | Recording |                      |
-| 10/25     | Inverse matrices and Eigenvalues                              |               |           | A7 Due               |
+| 10/25     | Inverse matrices and Eigenvalues                              |               |           | A6 Due               |
 | 10/27     | Eigenvalues & Eigenvectors                                    |               |           |                      |
-| 11/1      | Multivariable Linear Systems                                  |               |           | A8 Due               |
+| 11/1      | Multivariable Linear Systems                                  |               |           | A7 Due               |
 | 11/3      | Complex Eigenvalues                                           |               |           |                      |
-| 11/8      | Demography                                                    |               |           | A9 Due               |
+| 11/8      | Demography                                                    |               |           | A8 Due               |
 | 11/10     | Demography II                                                 |               |           |                      |
 | 11/15     | TBD                                                           |               |           |                      |
 | 11/17     | TBD                                                           |               |           |                      |

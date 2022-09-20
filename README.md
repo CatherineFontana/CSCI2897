@@ -20,19 +20,19 @@ Office Hours: Tu 3:15-4:00 and Th 12:00-2:00, JSCBB A414
 | 9/15      | Equilibria, Exploring Logistics via Desmos                           |               | [Lec. 7](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_7.pdf), [Desmos](https://www.desmos.com/calculator)          |                      |
 | 9/20      | Species Interactions: Lotka Volterra              |               |  [Lec. 8](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_8.pdf)          | [A2](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/A2.pdf) Due               |
 | 9/22\*    | Consumer-Resource Models                                      |               | Recording |                      |
-| 9/27      | Math: Integrating Factors & Linear Equations                  |               |           | A3 Due               |
+| 9/27      | Math: Integrating Factors & Linear Equations                  |               |           |                |
 | 9/29      | SIR models                                                    |               |           |                      |
-| 10/4      | SIR models II                                                 |               |           | A4 Due               |
+| 10/4      | SIR models II                                                 |               |           | A3 Due               |
 | 10/6      | SEIR and Vaccination I                                        |               |           | Project Proposal Due |
 | 10/11     | Vaccination II                                                |               |           |                      |
 | 10/13\*   | Multiple variables, and systems of equations                  |               | Recording |                      |
-| 10/18     | Multiple variables, and systems of equations                  |               |           | A5 Due               |
+| 10/18     | Multiple variables, and systems of equations                  |               |           | A4 Due               |
 | 10/20\*   | Vectors, matrices                                             |               | Recording |                      |
-| 10/25     | Inverse matrices and Eigenvalues                              |               |           | A6 Due               |
+| 10/25     | Inverse matrices and Eigenvalues                              |               |           | A5 Due               |
 | 10/27     | Eigenvalues & Eigenvectors                                    |               |           |                      |
-| 11/1      | Multivariable Linear Systems                                  |               |           | A7 Due               |
+| 11/1      | Multivariable Linear Systems                                  |               |           | A6 Due               |
 | 11/3      | Complex Eigenvalues                                           |               |           |                      |
-| 11/8      | Demography                                                    |               |           | A8 Due               |
+| 11/8      | Demography                                                    |               |           | A7 Due               |
 | 11/10     | Demography II                                                 |               |           |                      |
 | 11/15     | TBD                                                           |               |           |                      |
 | 11/17     | TBD                                                           |               |           |                      |
